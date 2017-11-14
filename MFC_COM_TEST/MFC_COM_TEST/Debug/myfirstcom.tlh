@@ -1,0 +1,77 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.30729.01 (815058aa).
+//
+// d:\lujia\program source code\servercontrol\mfc_com_test\mfc_com_test\debug\myfirstcom.tlh
+//
+// C++ source equivalent of Win32 type library MyFirstCom.tlb
+// compiler-generated file created 11/14/17 at 11:32:14 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace MyFirstCom {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("7f3f95e7-0289-4630-97f4-fda11838dbbe"))
+/* LIBID */ __MyFirstCom;
+struct __declspec(uuid("df884273-95a1-410d-8cd5-0b69d610bbaf"))
+/* dual interface */ MyCom_Interface;
+struct __declspec(uuid("c1942a47-7967-4648-b531-f3c694d442be"))
+/* dispinterface */ MyCom_Events;
+struct /* coclass */ ComClass;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(MyCom_Interface, __uuidof(MyCom_Interface));
+_COM_SMARTPTR_TYPEDEF(MyCom_Events, __uuidof(MyCom_Events));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("df884273-95a1-410d-8cd5-0b69d610bbaf"))
+MyCom_Interface : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long Add (
+        long a,
+        long b );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Add (
+        /*[in]*/ long a,
+        /*[in]*/ long b,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("c1942a47-7967-4648-b531-f3c694d442be"))
+MyCom_Events : IDispatch
+{};
+
+struct __declspec(uuid("dea10720-e600-4712-8a92-411b4e77d0fd"))
+ComClass;
+    // interface _Object
+    // [ default ] interface MyCom_Interface
+    // [ default, source ] dispinterface MyCom_Events
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\lujia\program source code\servercontrol\mfc_com_test\mfc_com_test\debug\myfirstcom.tli"
+
+} // namespace MyFirstCom
+
+#pragma pack(pop)

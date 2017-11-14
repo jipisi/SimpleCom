@@ -1,0 +1,6 @@
+D:\lujia\Program source code\ServerControl\MyFirstCom\MyFirstCom\bin\Debug\MyFirstCom.dll
+D:\lujia\Program source code\ServerControl\MyFirstCom\MyFirstCom\bin\Debug\MyFirstCom.pdb
+D:\lujia\Program source code\ServerControl\MyFirstCom\MyFirstCom\bin\Debug\MyFirstCom.tlb
+D:\lujia\Program source code\ServerControl\MyFirstCom\MyFirstCom\obj\Debug\ResolveAssemblyReference.cache
+D:\lujia\Program source code\ServerControl\MyFirstCom\MyFirstCom\obj\Debug\MyFirstCom.dll
+D:\lujia\Program source code\ServerControl\MyFirstCom\MyFirstCom\obj\Debug\MyFirstCom.pdb
